@@ -177,8 +177,3 @@ This project is licensed under the [MIT License](LICENSE). You are free to use a
 ---
 
 Happy building and optimizing your sales funnels with era- Sales Funnel Builder!
-```
-
----
-
-Feel free to modify the content and sections to better match any additional details or specific requirements of your project. Enjoy coding!
