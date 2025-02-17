@@ -1,4 +1,4 @@
-<p align="center"><a href="https://era.envoydigitalbd.com" target="_blank"><img src="https://ibb.co.com/277pJx68" alt="Era-Funnel-builder"></a></p>
+<a href="https://era.envoydigitalbd.com"><img src="https://i.ibb.co.com/999dP6vw/era-funnel-builder.png" alt="era-funnel-builder" border="0" /></a>
 
 ## About Laravel
 
