@@ -1,13 +1,13 @@
 <a href="https://era.envoydigitalbd.com"><img src="https://i.ibb.co.com/999dP6vw/era-funnel-builder.png" alt="era-funnel-builder" border="0" /></a>
 
-Below is an example of a `README.md` file for your project. You can copy this into your repository and adjust details as needed:
-
 ---
 
 ```markdown
 # era- Sales Funnel Builder
 
-era- Sales Funnel Builder is an open source sales funnel builder designed and developed by **Imon Chowdhury** using **Laravel 11**, **Vue3**, **Inertia.js**, and **Tailwind CSS**. This project provides a powerful and intuitive platform for creating and managing sales funnels with a modern tech stack.
+era- Sales Funnel Builder is an open source sales funnel builder designed and developed by **Imon Chowdhury** using **Laravel 11**, **Vue3**,
+**Inertia.js**, and **Tailwind CSS**.
+This project provides a powerful and intuitive platform for creating and managing sales funnels with a modern tech stack.
 
 ## Table of Contents
 
@@ -44,8 +44,8 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/era-sales-funnel-builder.git
-   cd era-sales-funnel-builder
+   git clone https://github.com/sajidimon/era.git
+   cd era
    ```
 
 2. **Install PHP Dependencies**
