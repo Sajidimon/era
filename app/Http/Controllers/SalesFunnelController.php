@@ -66,7 +66,7 @@ class SalesFunnelController extends Controller
     {
         $formattedTitle = str_replace('-', ' ', $funnel);
         $funnel = SalesFunnel::with('products')->where('title', $formattedTitle)->first();
-        return Inertia::render('User/Home', [
+        return Inertia::render('Admin/SalesFunnel/ViewFunnel', [
             'funnel' => $funnel,
         ]);
     }

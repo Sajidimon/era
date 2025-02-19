@@ -49,7 +49,7 @@
                         :disabled="form.processing"
                         class="w-full mt-6 h-12 text-white text-center text-base font-semibold leading-6 rounded-full hover:bg-indigo-800 transition-all duration-700 bg-indigo-600 shadow-sm mb-11"
                     >
-                        Registration
+                        Login
                     </button>
                     <Link
                         href="/register"

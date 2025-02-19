@@ -46,27 +46,30 @@ Route::middleware(ValidAdmin::class)->group(function () {
     Route::get('/admin/settings', [SettingController::class, 'settings'])->name('settings');
     Route::patch('/update-settings', [SettingController::class, 'updateSettings'])->name('updateSettings');
 
+    //logout route:
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
 });
 
 Route::middleware('guest')->group(function () {
-
-    //home page route:
-    Route::get('/', [HomeController::class, 'home'])->name('home');
-
-    //single funnel route:
-    Route::get('/funnel/{name}', [SalesFunnelController::class, 'show'])->name('show');
-
-    //order route:
-    Route::post('/create-order', [OrderController::class, 'store'])->name('store');
 
     //auth routes:
     Route::get('/register', [AuthController::class, 'register'])->name('register')->middleware(DisabledRegistration::class);
     Route::post('/register', [AuthController::class, 'store'])->name('store');
     Route::get('/login', [AuthController::class, 'login'])->name('login');
     Route::post('/login', [AuthController::class, 'authenticate'])->name('authenticate');
-    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
-
-    //error route:
-    Route::get('/404', [SettingController::class, 'error'])->name('error');
 
 });
+
+//home page route:
+Route::get('/', [HomeController::class, 'home'])->name('home');
+
+
+//single funnel route:
+Route::get('/funnel/{name}', [SalesFunnelController::class, 'show'])->name('show');
+
+//order route:
+Route::post('/create-order', [OrderController::class, 'store'])->name('store');
+
+//error route:
+Route::get('/404', [SettingController::class, 'error'])->name('error');

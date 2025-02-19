@@ -56,7 +56,7 @@ class ProductController extends Controller
             'thumbnail' => $path,
         ]);
 
-        return redirect()->back()->with('success', 'product created successfull');
+        return redirect()->route('products');
 
     }
 
